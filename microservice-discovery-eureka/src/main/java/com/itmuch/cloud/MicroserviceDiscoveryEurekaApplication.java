@@ -1,4 +1,4 @@
-package com.itmuch.cloud.microservicediscoveryeureka;
+package com.itmuch.cloud;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
