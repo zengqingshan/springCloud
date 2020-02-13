@@ -1,7 +1,5 @@
 server:
-  port: 7901
-user:
-    userServicePath: http://localhost:7900/simple/
+  port: 8010
 eureka:
   client:
     service-url:
@@ -11,4 +9,4 @@ eureka:
     instanceId: ${spring.application.name}:${spring.application.instance_id:${server.port}}
 spring:
   application:
-    name: microservice-consumer-movie
+    name: microservice-consumer-movie-ribbon

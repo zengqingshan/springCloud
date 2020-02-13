@@ -1,5 +1,5 @@
 server:
-  port: 8010
+  port: 8011
 eureka:
   client:
     service-url:
@@ -9,4 +9,7 @@ eureka:
     instanceId: ${spring.application.name}:${spring.application.instance_id:${server.port}}
 spring:
   application:
-    name: microservice-consumer-movie-ribbon
+    name: microservice-consumer-movie-ribbon-properties
+microservice-provider-user:
+  ribbon:
+    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule
