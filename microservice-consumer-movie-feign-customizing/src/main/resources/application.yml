@@ -1,5 +1,5 @@
 server:
-  port: 8012
+  port: 6900
 eureka:
   client:
     service-url:
@@ -9,7 +9,4 @@ eureka:
     instanceId: ${spring.application.name}:${spring.application.instance_id:${server.port}}
 spring:
   application:
-    name: microservice-consumer-movie-ribbon-without-eureka
-microservice-provider-user:
-  ribbon:
-    listOfServers: localhost:7900
+    name: microservice-consumer-movie-feign
