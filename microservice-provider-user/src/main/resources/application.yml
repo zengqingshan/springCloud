@@ -1,5 +1,5 @@
 server:
-  port: 8900
+  port: 7900
 spring:
   jpa:
     generate-ddl: false
@@ -26,3 +26,6 @@ eureka:
   instance:
     prefer-ip-address: true
     instanceId: ${spring.application.name}:${spring.application.instance_id:${server.port}}
+    metadata-map:
+      zone: ABC  #eureka可以理解的元数据，会影响客户端的行为
+      zqd: ZQS  #不会影响客户端行为
