@@ -12,6 +12,7 @@
 		<module>microservice-discovery-eureka</module>
 		<module>microservice-getway-zuul-myself</module>
 		<module>microservice-gateway-zuul</module>
+		<module>microservice-gateway-zuul-fallback</module>
 		<module>microservice-gateway-zuul-reg-exp</module>
 		<module>microservice-hystrix-dashboard</module>
 		<module>microservice-hystrix-turbine</module>
@@ -29,6 +30,9 @@
 		<module>microservice-consumer-movie-feign-with-hystrix</module>
 		<module>microservice-consumer-movie-feign-with-hystrix-factory</module>
 		<module>microservice-consumer-movie-feign-with-hystrix-hystrix-factory</module>
+		<module>microservice-file-upload</module>
+		<module>microservice-sidecar</module>
+		<module>microservice-gateway-zuul-filter</module>
 	</modules>
 	
 	<properties>
